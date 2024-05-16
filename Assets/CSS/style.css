@@ -22,7 +22,7 @@ h3 {
 
 .task-1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin: 100px;
@@ -133,13 +133,21 @@ h3 {
     width: 70%;
     font-size: 25px !important;
 }
-
+.caption-phone p {
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
 .caption-phone h3 {
     width: 100%;
     font-size: 38px;
 }
 
 .image-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     width: 30%;
 }
 
@@ -321,6 +329,13 @@ h3 {
 .grade-marks,
 .marks-calculator {
     width: 47% !important;
+    padding: 0 !important;
+}
+.bg-color {
+    justify-content: center !important;
+}
+.task-1 {
+    margin: 100px 30px;
 }
 .title-page {
     font-size: 30px;
@@ -329,7 +344,7 @@ h3 {
     width: 30%;
 }
 .images {
-    width: 10% !important;
+    width: 20% !important;
 }
 .image-phone {
     width: 100% !important;
@@ -355,10 +370,16 @@ h3 {
         width: 100% !important;
     }
 }
+.containe {
+    margin: auto !important;
+}
 
 @media screen and  (max-width: 400px) {
     .title-page {
         font-size: 20px;
+    }
+    .task-1 {
+        margin: 100px 10px;
     }
     .task-1 h3 {
         font-size: 15px !important;
@@ -366,5 +387,9 @@ h3 {
     .btn-sub {
         width: 30%;
         height: 20%;
+    }
+    input {
+        width: 80% !important;
+        margin: 0 0 0 20px;
     }
 }

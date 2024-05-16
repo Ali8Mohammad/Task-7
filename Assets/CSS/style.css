@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+}
+
+h3 {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px auto 0;
+}
+
+.task-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+.task-1 p {
+    font-size: 20px;
+    width: 100% !important;
+    color: white;
+}
+
+.title-page {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.maximum-minimum,
+.vowel-chars,
+.Multiplication-table,
+.even-numbers,
+.grade-marks,
+.marks-calculator {
+    width: 30% !important;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.514);
+    height: 630px;
+    margin: 30px 0;
+    background-color: rgb(0, 195, 255);
+    padding: 0 50px;
+}
+
+.maximum-minimum h3,
+.vowel-chars h3,
+.Multiplication-table h3,
+.even-numbers h3,
+.grade-marks h3,
+.marks-calculator h3 {
+    padding-bottom: 50px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.input {
+    width: 100%;
+    padding: 7px;
+}
+
+.btn-sub {
+    margin: 10px 0;
+    padding: 7px 25px;
+    background-color: green;
+    border: 0;
+    color: white;
+}
+
+.marks-calculator {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 50px 200px; */
+}
+
+.marks-calculator input {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+}
+
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px dashed black;
+}
+
+.first-task {
+    color: white;
+    text-align: center ;
+
+}
+
+.containe {
+    width: 1000px;
+    margin: 300px auto;
+}
+
+.containe .title {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.first-task {
+    background-color: #c82624;
+}
+
+.bg-color {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caption-phone {
+    width: 70%;
+    font-size: 25px !important;
+}
+
+.caption-phone h3 {
+    width: 100%;
+    font-size: 38px;
+}
+
+.image-phone {
+    width: 30%;
+}
+
+.first-task .iphone {
+    width: 100%;
+    display: none;
+}
+
+.iphone.active {
+    display: block !important;
+}
+
+.images-phone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.images-phone .images {
+    width: 20%;
+    cursor: pointer;
+}
+
+.mode {
+    padding: 50px 0;
+    color: inherit;
+}
+
+.dark-mode {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+.mode div i {
+    font-size: 25px;
+}
+
+.take-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.take-2 h3 {
+    width: 100%;
+    font-size: 40px;
+}
+
+.take-2 p {
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+/* Task 3 Styles */
+.accordion {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    margin: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    background-color: #d5f8ba;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-title h4 {
+    margin: 0;
+}
+
+.accordion-title .icon {
+    transition: transform 0.3s ease;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-item.active .icon {
+    transform: rotate(180deg);
+}
+
+.experience-rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.experience-rate h3 {
+    width: 100%;
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+
+.stars i {
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.stars i:hover,
+.stars i.selected {
+    color: gold !important;
+}
+
+.rating-text {
+    margin-top: 50px;
+    font-size: 20px;
+    width: 100%;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1274px) {
+    .maximum-minimum,
+    .vowel-chars,
+    .Multiplication-table,
+    .even-numbers,
+    .grade-marks,
+    .marks-calculator{
+        height: 700px;
+    }
+    .accordion {
+        width: 70% !important;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1097px) {
+    .maximum-minimum h3,
+.vowel-chars h3,
+.Multiplication-table h3,
+.even-numbers h3,
+.grade-marks h3,
+.marks-calculator h3 {
+    font-size: 25px;
+}
+
+.first-task .iphone {
+    width: 80%;
+}
+}
+@media screen and (max-width: 1050px){
+    .maximum-minimum,
+.vowel-chars,
+.Multiplication-table,
+.even-numbers,
+.grade-marks,
+.marks-calculator {
+    width: 47% !important;
+}
+.title-page {
+    font-size: 30px;
+}
+.first-task .iphone {
+    width: 30%;
+}
+.images {
+    width: 10% !important;
+}
+.image-phone {
+    width: 100% !important;
+}
+.images-phone {
+    width: 100%;
+}
+.accordion {
+    width: 50% !important;
+    margin: auto;
+}
+.stars i{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 780px) {
+    .maximum-minimum,
+    .vowel-chars,
+    .Multiplication-table,
+    .even-numbers,
+    .grade-marks,
+    .marks-calculator {
+        width: 100% !important;
+    }
+}
+
+@media screen and  (max-width: 400px) {
+    .title-page {
+        font-size: 20px;
+    }
+    .task-1 h3 {
+        font-size: 15px !important;
+    }
+    .btn-sub {
+        width: 30%;
+        height: 20%;
+    }
+}
